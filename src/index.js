@@ -7,6 +7,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 
 const rootEl = document.getElementById("root");
+
 if (rootEl) {
   //remove console logs
   if (process.env.NODE_ENV === "production") {
